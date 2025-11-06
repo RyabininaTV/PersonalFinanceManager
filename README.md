@@ -24,23 +24,25 @@
 
 ### Структура проекта
 
+```
 src/main/java/com/financemanager/
--├── model/ # Модели данных
--│ ├── User.java
--│ ├── Wallet.java
--│ ├── Transaction.java
--│ ├── Category.java
--│ └── TransactionType.java
--├── service/ # Бизнес-логика
--│ ├── AuthService.java
--│ ├── WalletService.java
--│ ├── TransactionService.java
--│ └── FileService.java
--├── exception/ # Пользовательские исключения
--│ ├── UserNotFoundException.java
--│ ├── CategoryNotFoundException.java
--│ └── InsufficientFundsException.java
--└── Main.java # Точка входа
+├── model/              # Модели данных
+│   ├── User.java
+│   ├── Wallet.java
+│   ├── Transaction.java
+│   ├── Category.java
+│   └── TransactionType.java
+├── service/            # Бизнес-логика
+│   ├── AuthService.java
+│   ├── WalletService.java
+│   ├── TransactionService.java
+│   └── FileService.java
+├── exception/          # Пользовательские исключения
+│   ├── UserNotFoundException.java
+│   ├── CategoryNotFoundException.java
+│   └── InsufficientFundsException.java
+└── Main.java           # Точка входа
+```
 
 ### Принципы проектирования
 - **Слоистая архитектура**: разделение на модель, сервисы и представление
